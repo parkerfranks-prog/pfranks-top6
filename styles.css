@@ -197,7 +197,8 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   line-height: 1.02;
   letter-spacing: -0.03em;
   margin-bottom: 1.5rem;
-  text-wrap: balance; /* even lines at every width; no <br> needed */
+  text-wrap: balance;
+  color: white; /* even lines at every width; no <br> needed */
 }
 
 /* The highlighter behind [your subject]. `clone` repeats it on every line when
