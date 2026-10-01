@@ -14,7 +14,7 @@ https://coolors.co/1461b8-fee334-d259ee-f67d3c-7f4bbe-f9efe6
 }
 
 body {
-    background: var(--color-Linen)
+    background: var(--color-Linen);
 }
 
 
@@ -22,9 +22,33 @@ body {
 /********* HERO **********/
 /********* HERO **********/
 
+.hero-title {
+    color: var(--color-Linen);
+    text-shadow: 2px 2px 4px black;
+}
+
+.hero-support {
+    color: var(--color-Linen);
+    font-weight: 800;
+    text-shadow: 1px 1px 3px black;
+}
+
 
 .hero-mesh {
     background: url("https://www.hollywoodreporter.com/wp-content/uploads/2023/09/2023_08-top50shows-01.jpg?w=1440&h=810&crop=1");
     background-position: center;
     background-size: cover;
+}
+
+/***********NAVBAR************/
+/***********NAVBAR************/
+/***********NAVBAR************/
+
+.site-nav-brand {
+    color: var(--color-Linen);
+    text-shadow: 1px 1px 3px black
+}
+.is-nav-ready .site-nav.is-stuck {
+    background: color-mix(in oklab, var(--color-yellow) 88%, transparent);
+    backdrop-filter: blur(10px);
 }
