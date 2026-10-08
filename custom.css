@@ -52,3 +52,9 @@ body {
     background: color-mix(in oklab, var(--color-yellow) 88%, transparent);
     backdrop-filter: blur(10px);
 }
+.entry-one {
+    margin-bottom: 4rem;
+}
+.entry-one .entry-card {
+    background-color:#1461B8;
+}

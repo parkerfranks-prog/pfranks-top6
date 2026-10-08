@@ -299,7 +299,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 }
 
 .entry-card {
-  height: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -307,6 +307,10 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   background: var(--color-base-200);
   border: 1px solid color-mix(in oklab, var(--color-base-content) 10%, transparent);
   transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.entry-card{
+  height: 85%;
 }
 
 /* The lift: up, a shadow, and the border warming. All three, or none. */
@@ -438,6 +442,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   background: var(--color-primary);
   color: var(--color-primary-content);
   border-color: transparent;
+  height: 110%;
 }
 
 .entry-one .eyebrow,
@@ -483,13 +488,13 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 .method-inner {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 5rem 1.5rem;
+  padding: 5rem 1.5rem ;
 }
 
 .method-cols {
   display: grid;
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
   grid-template-columns: 1fr;
 }
 
