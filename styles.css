@@ -442,7 +442,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   background: var(--color-primary);
   color: var(--color-primary-content);
   border-color: transparent;
-  height: 110%;
+  height: 95%;
 }
 
 .entry-one .eyebrow,
