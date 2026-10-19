@@ -17,6 +17,13 @@ body {
     background: var(--color-Linen);
 }
 
+body, div, p{
+   font-family: "Boogaloo", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: "Sixtyfour", sans-serif;
+}
 
 /********* HERO **********/
 /********* HERO **********/
@@ -57,4 +64,8 @@ body {
 }
 .entry-one .entry-card {
     background-color:#1461B8;
+}
+
+.carousel {
+    background-color: #7F4BBE;
 }
