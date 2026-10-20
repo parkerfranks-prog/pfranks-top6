@@ -512,7 +512,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 /* ============================================================ THE FOOTER */
 
 .site-foot {
-  background: var(--color-base-300);
+  background: var(--color-accent);
 }
 
 .site-foot-inner {
